@@ -1,0 +1,89 @@
+/*https://colorkit.co/palette/031212-3b1370-ba9cc9-fbf9ff-7fc98b-29733f*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #3b1370;
+    background-color: #fbf9ff;
+}
+
+.textField,
+.numberField,
+.emailField {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+    max-width: 30rem;
+}
+
+label {
+    padding: 0.5rem;
+    width: 20rem;
+    font-weight: bold;
+}
+
+.emailField * {
+    padding: 0.5rem;
+}
+
+.emailContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.emailContainer input {
+    max-width: 10rem;
+}
+
+input {
+    border: 0;
+    border-radius: 0.2rem;
+    background-color: #ba9cc9;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: #031212;
+    max-width: 10rem;
+}
+
+input:focus {
+    outline: none;
+    background-color: #7fc98b;
+    transition: 400ms;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 35rem;
+}
+
+.stateView {
+    padding: 2rem;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.formControls {
+    text-align: center;
+    padding: 1rem;
+}
+
+.formControls button {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.3rem;
+    border: 0;
+    background-color: #3b1370;
+    color: #fbf9ff;
+    width: 10rem;
+    font-size: 1.2rem;
+}
+
+.formControls button:hover {
+    background-color: #ba9cc9;
+    cursor: pointer;
+}
